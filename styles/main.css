@@ -16,7 +16,9 @@ a{
   text-decoration: none;
 }
 img{
-	width: 100%;
+
+	max-width: 100%;
+	height: auto;
 	display: block;
 }
 h1, p{
@@ -49,6 +51,67 @@ h1, p{
 	padding: 7px;
 }
 
+.image{
+	width: 400px;
+	height: 400px;
+	object-fit: cover;
+}
+/*
+=================
+  ShowCase
+=================
+*/
+.show-case{
+	background: rgb(20,16,94);
+	
+}
+.show-case h2{
+	padding: 30px;
+	text-align: center;
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+.show-case-para h3, .show-case-para p{
+	padding: 10px;
+}
+.show-case-para h3{
+	color: rgba(27, 163, 156, 1);
+	
+	font-size: 25px;
+	text-align: center;
+}
+.show-case-para p{
+	
+	
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.text{
+	color: white;
+	
+	padding: 20px;
+	font-size: 33px;
+	text-align: center;
+}
+.reg, .regb{
+	background: rgba(153,33,5,0.8)
+}
+.tick, .tickb{
+	background: rgb(0, 128, 128);
+}
+.attend, .attendb{
+	background: rgb(184,134,11);
+}
+.postAna, .postAnab{
+	background: rgb(238,130,238);
+}
+.para{
+	font-size: 25px;
+	padding: 20px;
+	text-align: center;
+}
 /*
 =================
   Media Queries
@@ -63,7 +126,7 @@ h1, p{
 	}
 	.header-container{
 		max-width: 1170px;
-		margin: auto;
+		margin: 0 auto;
 	}
 	h1, p{
 		width: 50%;
@@ -78,4 +141,43 @@ h1, p{
 		background: rgba(153,33,5,1);
 		padding: 20px;
 	}
+	.show-case-container{
+		width: 80vw;
+		margin: 0 auto;
+	}
+	.show-case-para p{
+		width: 50%;
+		margin: 0 auto;
+		padding-bottom: 20px;
+	}
+	.image{
+		width: 800px;
+		height: 600px;
+		object-fit: cover;
+   }
+   .para{
+   		width: 100%;
+   }
 }
+@media screen and (min-width: 992px){
+	.show-case-container{
+		width: 90vw;
+		margin: auto 0;
+	}
+	.main-container{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.show-case-container h2{
+		font-size: 40px;
+		padding: 50px;
+		
+	}
+	.show-case-para h3{
+		font-size: 50px;
+		padding: 60px;
+	}
+	
+}
+
