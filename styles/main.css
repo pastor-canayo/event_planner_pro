@@ -114,6 +114,72 @@ h1, p{
 }
 /*
 =================
+  Cards
+=================
+*/
+.cards-events{
+	background: #000;
+	padding: 30px;
+	
+}
+.cards-events h3{
+	color: #fff;
+	text-align: center;
+	padding: 25px;
+	font-size: 30px;
+
+}
+.cards-events h2{
+	color: #fff;
+	text-align: center;
+	padding: 25px;
+	font-size: 25px;
+
+}
+.card-registration, .card-ticketing, .card-attendee, .card-post{
+	margin-bottom: 20px;
+}
+.card-registration{
+	background: linear-gradient(204deg, rgba(70,11,31,1) 1%, rgba(18,12,60,1) 40%, rgba(77,14,77,1) 90%);
+	padding: 20px;
+	border-radius: 20px;
+}
+.card-registration p{
+	font-size: 18px;
+}
+.card-ticketing{
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    padding: 20px;
+    border-radius: 20px; 
+}
+.card-ticketing p{
+	font-size: 18px;
+}
+.card-attendee{
+	background: linear-gradient(42deg, rgba(176,201,248,1) 0%, rgba(246,174,209,1) 50%, rgba(248,209,215,1) 100%);
+	padding: 20px;
+    border-radius: 20px;
+
+}
+.card-attendee h2{
+    color: #000;
+}
+.card-attendee p{
+	font-size: 18px;
+	 color: #000;
+}
+.card-post{
+	 background: #3bade3;
+	 background: linear-gradient(109.6deg, rgb(6, 183, 249) 11.2%, rgb(25, 74, 236) 91.1%);
+	 padding: 20px;
+    border-radius: 20px;
+}
+
+.card-post p{
+	font-size: 18px;
+}
+/*
+=================
   Media Queries
 =================
 */
@@ -128,18 +194,18 @@ h1, p{
 		max-width: 1170px;
 		margin: 0 auto;
 	}
-	h1, p{
-		width: 50%;
-	}
+	
 	.header-container h1{
 		font-size: 50px;
 		background: rgba(2,3,129, 1);
 		padding: 20px;
+		width: 50%;
 	}
 	.header-container p{
 		font-size: 30px;
 		background: rgba(153,33,5,1);
 		padding: 20px;
+		width: 50%;
 	}
 	.show-case-container{
 		width: 80vw;
@@ -157,6 +223,20 @@ h1, p{
    }
    .para{
    		width: 100%;
+   }
+   .cards-container{
+   		display: flex;
+   		flex-wrap: wrap;
+   		justify-content: space-between;
+   		text-align: center;
+
+   }
+   .cards-events h3{
+   		padding: 50px;
+   }
+   .card{
+   		flex: 0 0 calc(50% - 1rem);
+
    }
 }
 @media screen and (min-width: 992px){
@@ -178,6 +258,13 @@ h1, p{
 		font-size: 50px;
 		padding: 60px;
 	}
+	.card{
+   		flex: 0 0 calc(25% - 1rem);
+
+   }
+   .cards-events h3{
+   		font-size: 40px;
+   }
 	
 }
 
