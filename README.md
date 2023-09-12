@@ -19,7 +19,7 @@ The website is focus in provinding products for online registrations, ticketing,
 # Issues that I was not able to get done
 * Not able to use the static website generator to add the blog for the website.  I tried to integrate it only one part with JeKyll
   but I was not able to.  The only way to accomplish that I think it was integrating the whole website with Jekyll but I did not do it
-  I just could no find a way to only do a section.  Also I tried the usung Hugo but it did not provide that option neither.
+  I just could no find a way to only do a section.  Also I tried using Hugo but it did not provide that option either.
 * Also I tried to register the website with google Search Console for the sitemap.xml but it did not recognize the website URL from Nettlify.
   The file sitemap.xml is on the repository.
 # Enjoy the Website 
