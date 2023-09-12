@@ -31,7 +31,7 @@ h1, p{
 */
 #header{
 	height: 60vh;
-	background: url('../images/event.jpg')no-repeat center/cover;
+	background: url('../images/optimize-event.jpg')no-repeat center/cover;
 	padding: 25px;
 }
 
@@ -356,7 +356,6 @@ li{
 	}
 	ul li{
 		margin-left: 750px;
-
 	}
 	
 }
