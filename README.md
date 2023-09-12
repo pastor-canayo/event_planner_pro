@@ -16,6 +16,9 @@ The website is focus in provinding products for online registrations, ticketing,
 # Image Optimization Set up
 * Download and installed the latest version of python in https://www.python.org/downloads/
 * Download Pycharm IDE to run the script
+* in the folder images shows the images that were optimized with the python script
+  all the images that were optimized have the name optimized-name.jpg and compare
+  how many KB were reduced from the original size.
 # Issues that I was not able to get done
 * Not able to use the static website generator to add the blog for the website.  I tried to integrate it only one part with JeKyll
   but I was not able to.  The only way to accomplish that I think it was integrating the whole website with Jekyll but I did not do it
